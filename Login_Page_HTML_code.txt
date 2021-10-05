@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_Page_By_HTML</title>
+   
+</head>
+<!-- I am making login page
+     we have reqired these things for submission the form:
+       1-Name
+       2-Father_name
+       3-Postal Address
+       4-Personal_Address
+       5-Gender
+       6-City
+       7-Course
+       8-District
+       9-State
+       10-Pincode
+       11-Email_id
+       12-DOB
+       13-Mobile_num -->
+       
+<!-- main body starts that's color is black -->
+<body bgcolor="black">
+    <!-- Form Code starts -->
+    <form action="#" name="StudentRegistration" onSubmit="return(validate());">
+        <!-- Table Code start -->
+        <table cellpadding="2" width="20%" bgcolor="E79685" align="center" cellspacing="2">
+           <!-- main "submission Registration form" that are in center of whole the form -->
+            <tr>
+                <td colspan=2>
+                    <center>
+                        <font size=4>
+                            <b>Student Registration Form</b>
+                        </font>
+                    </center>
+                </td>
+            </tr>
+            <!-- name -->
+            <tr>
+                <td>Name</td>
+                <td><input type=text name=textnames id="textname" size="30">
+                </td>
+            </tr>
+            <!-- Father name -->
+            <tr>
+                <td>Father Name</td>
+                <td><input type="text" name="fathername" id="fathername" size="30">
+                </td>
+            </tr>
+            <!-- Postal Address -->
+            <tr>
+                <td>Postal Address</td>
+                <td><input type="text" name="paddress" id="paddress" size="30">
+                </td>
+            </tr>
+            <!-- Personal Address -->
+            <tr>
+                <td>Personal Address</td>
+                <td><input type="text" name="personaladdress" id="personaladdress" size="30">
+                </td>
+            </tr>
+            <!-- Gender -->
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="Gender" value="male" size="10">Male
+                    <input type="radio" name="Gender" value="Female" size="10">Female
+                </td>
+            </tr>
+            <!-- City -->
+            <tr>
+                <td>City</td>
+                <td><select name="City">
+                        <option value="-1" selected>select..</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Karachi">Karachi</option>
+                        <option value="Peshawar">Peshawar</option>
+                        <option value="Faislabad">Faislabad</option>
+                        <option value="Islamabad">Islamabad</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- Course -->
+            <tr>
+                <td>Course</td>
+                <td><select name="Course">
+                        <option value="-1" selected>select..</option>
+                        <option value="BS(Engineering)">BS(Engineering)</option>
+                        <option value="BS(Medical)">BS(Medical)</option>
+                        <option value="BBA">BBA</option>
+                        <option value="MBA">MBA</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- District -->
+            <tr>
+                <td>District</td>
+                <td><select name="District">
+                        <option value="-1" selected>select..</option>
+                        <option value="Sheikhupura">Sheikhupura</option>
+                        <option value="Nankana">Nankana</option>
+                        <option value="Rahim-yar-khan">Rahim-yar-khan</option>
+                        <option value="Kasur">Kasur</option>
+                    </select></td>
+
+            </tr>
+            <!-- State -->
+            <tr>
+                <td>State</td>
+                <td><select Name="State">
+                        <option value="-1" selected>select..</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Karachi">Karachi</option>
+                        <option value="Peshawar">Peshawar</option>
+                        <option value="Faislabad">Faislabad</option>
+                        <option value="Islamabad">Islamabad</option>
+                    </select></td>
+            </tr>
+            <!-- Pincode -->
+            <tr>
+                <td>PinCode</td>
+                <td><input type="text" name="pincode" id="pincode" size="30"></td>
+
+            </tr>
+            <!-- Email_id -->
+            <tr>
+                <td>EmailId</td>
+                <td><input type="text" name="emailid" id="emailid" size="30"></td>
+            </tr>
+            <!-- DOB -->
+            <tr>
+                <td>DOB</td>
+                <td><input type="text" name="dob" id="dob" size="30"></td>
+            </tr>
+            <!-- Mobile_Num -->
+            <tr>
+                <td>Mobile_Num</td>
+                <td><input type="text" name="mobilenum" id="mobilenum" size="30"></td>
+            </tr>
+            <!-- For rest -->
+            <tr>
+                <td><input type="reset"></td>
+                <td colspan="2"><input type="submit" value="Submit Form" /></td>
+            </tr>
+        </table>
+        <!-- close table code -->
+    </form>
+    <!-- close form code -->
+</body>
+<!-- close main body part -->
+</html>
